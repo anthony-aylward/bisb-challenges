@@ -294,8 +294,8 @@ Financial challenges for students
 
 .right-column[
   <img src="figure/stipend-after-rent.svg" width="500" class="centerimg"/>
-  - Shown: Monthly stipend minus 50% of median rent. This value is currently at
-    its lowest level since 2012 (or earlier).
+  - Shown: Monthly stipend minus 50% of median rent. In 2019 dollars, this
+    value is currently at its lowest level since 2012 (or earlier).
 
   - After accounting for inflation and median rent, the buying power of a
     student enrolled in 2013 has declined by 5% (conservatively).
