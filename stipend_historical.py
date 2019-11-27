@@ -79,7 +79,7 @@ def parse_arguments():
     parser.add_argument(
         'output_dir',
         metavar='<path/to/output_dir/>',
-        help='path to output file'
+        help='path to output directory'
     )
     return parser.parse_args()
 
