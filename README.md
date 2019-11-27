@@ -2,7 +2,7 @@ class: center, middle, inverse
 
 # Challenges for the BISB program
 <br>
-.footnote[View on [github](https://github.com/anthony-aylward/bisb-sustain). Slideshow created with [remark](https://github.com/gnab/remark) and [github pages](https://pages.github.com/).]
+.footnote[View on [github](https://github.com/anthony-aylward/bisb-challenges). Slideshow created with [remark](https://github.com/gnab/remark) and [github pages](https://pages.github.com/).]
 
 ---
 
