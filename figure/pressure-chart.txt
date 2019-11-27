@@ -1,0 +1,5 @@
+st=>start: Scarcity of funding
+e=>end: Increased pressure on graduate students
+op1=>end: Increased pressure on facutly
+
+st->op1->e
