@@ -223,7 +223,7 @@ Financial challenges for students
 
 - San Diego was in the top 5 [Cities With the Most Extreme Increases in 2-Bedroom Apartment Rental Prices](https://www.apartmentguide.com/blog/two-bedroom-rent-increasing-decreasing-the-most/) (Apartment Guide, 2019)
 
-- [San Diego rent hits all-time high](https://www.sandiegouniontribune.com/business/real-estate/sd-fi-rent-sept-20181009-story.html). (SDUT, 2018)
+- [San Diego rent hits all-time high](https://www.sandiegouniontribune.com/business/real-estate/sd-fi-rent-sept-20181009-story.html) (SDUT, 2018)
 ]
 
 ---
