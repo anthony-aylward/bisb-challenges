@@ -181,7 +181,7 @@ NIH budget plateau and increasing graduate enrollment
 .right-column[
 
 ### National
-- Increased [competition for research jobs](https://github.com/anthony-aylward/bisb-challenges.git)
+- Increased [competition for research jobs](https://cen.acs.org/careers/postdocs/Future-US-biomedical-research-enterprise/96/i17)
 
 - The ["postdoc holding tank"](https://elifesciences.org/articles/01139)
 
