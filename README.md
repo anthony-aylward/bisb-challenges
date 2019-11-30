@@ -478,7 +478,7 @@ Mental health
 
 .right-column[
 - The ongoing crisis of mental health issues among PhD students has been
-  researched and discussed [extensively](https://github.com/anthony-aylward/mental-health).
+  researched and discussed [extensively](https://anthony-aylward.github.io/mental-health/).
   BISB students are not immune to it.
 
 - Each of the challenges discussed previously can impact students' mental health.
