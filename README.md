@@ -521,3 +521,21 @@ class: center, middle, inverse
   scientific productivity of the program.
 ]
 
+---
+
+.left-column[
+  ## Summary
+]
+
+.right-column[
+
+Policies that effectively address these challenges will be based on principles of:
+
+<br>
+
+<img src="figure/boxed-up-arrow.svg" width="75" style="vertical-align:middle"/> **Increased institutional support for students**
+
+<br>
+
+<img src="figure/boxed-down-arrow.svg" width="75" style="vertical-align:middle"/> **Decreased rate of new student enrollment**
+]
