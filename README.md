@@ -529,7 +529,8 @@ class: center, middle, inverse
 
 .right-column[
 
-Policies that effectively address these challenges will be based on principles of:
+For BISB and for UCSD in general, policies that effectively address these
+challenges will be based on principles of:
 
 <br>
 
