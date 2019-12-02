@@ -311,6 +311,26 @@ Financial challenges for students
   ### - Stipend vs. inflation
   ### - Rent vs. inflation
   ### - Stipend vs. rent
+]
+
+.right-column[
+  <img src="figure/rent-as-fraction.svg" width="500" class="centerimg"/>
+  - Here still the dashed line is a _conservative estimate._
+
+  - Median rent as a fraction of the stipend has increased significantly in
+    recent years, exceeding 30%.
+  
+  - [When residents pay more than 30 percent of income in housing costs, local economies suffer.](https://www.sandiegouniontribune.com/business/real-estate/sdut-rent-wages-housing-concern-2016aug02-htmlstory.html)
+]
+
+---
+
+.left-column[
+  ## Financial challenges for students
+  ### - Inflation and rent
+  ### - Stipend vs. inflation
+  ### - Rent vs. inflation
+  ### - Stipend vs. rent
   ### - Consequences
 ]
 

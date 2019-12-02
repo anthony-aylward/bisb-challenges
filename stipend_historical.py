@@ -75,15 +75,15 @@ STIPEND_AFTER_RENT = pd.DataFrame([
 ], columns=['Year', 'USD', 'Dollars', 'Certainty'])
 
 RENT_AS_FRACTION = pd.DataFrame([
-    (2013, (1289/2)/(28_500/12), 'record'),
-    (2014, (1373/2)/(28_500/12), 'record'),
-    (2015, (1427/2)/(30_000/12), 'record'),
-    (2016, (1504/2)/(32_000/12), 'record'),
-    (2017, (1598/2)/(32_000/12), 'record'),
-    (2017, (1598/2)/(32_000/12), 'conservative estimate'),
-    (2018, (1646/2)/(32_000/12), 'conservative estimate'),
-    (2019, (1712/2)/(33_000/12), 'conservative estimate'),
-], columns=['Year', 'USD', 'Certainty'])
+    (2013, (1289/2)/(28_500/12) * 100, 'record'),
+    (2014, (1373/2)/(28_500/12) * 100, 'record'),
+    (2015, (1427/2)/(30_000/12) * 100, 'record'),
+    (2016, (1504/2)/(32_000/12) * 100, 'record'),
+    (2017, (1598/2)/(32_000/12) * 100, 'record'),
+    (2017, (1598/2)/(32_000/12) * 100, 'conservative estimate'),
+    (2018, (1646/2)/(32_000/12) * 100, 'conservative estimate'),
+    (2019, (1712/2)/(33_000/12) * 100, 'conservative estimate'),
+], columns=['Year', 'Percent', 'Certainty'])
 
 def parse_arguments():
     parser = ArgumentParser(description = 'plot historical bisb stipend')
@@ -140,7 +140,7 @@ def main():
 
     ax = sns.lineplot(
         x='Year',
-        y='USD',
+        y='Percent',
         style='Certainty',
         hue='Certainty',
         palette=[sns.color_palette()[2]] * 2,
