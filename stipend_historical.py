@@ -75,23 +75,15 @@ STIPEND_AFTER_RENT = pd.DataFrame([
 ], columns=['Year', 'USD', 'Dollars', 'Certainty'])
 
 RENT_AS_FRACTION = pd.DataFrame([
-    (2013, (1289/2)/(28_500/12), 'Nominal', 'record'),
-    (2013, (28_500/12 - 1289/2) / CPI[2013] * CPI[2019], '2019', 'record'),
-    (2014, 28_500/12 - 1373/2, 'Nominal', 'record'),
-    (2014, (28_500/12 - 1373/2) / CPI[2014] * CPI[2019], '2019', 'record'),
-    (2015, 30_000/12 - 1427/2, 'Nominal', 'record'),
-    (2015, (30_000/12 - 1427/2) / CPI[2015] * CPI[2019], '2019', 'record'),
-    (2016, 32_000/12 - 1504/2, 'Nominal', 'record'),
-    (2016, (32_000/12 - 1504/2) / CPI[2016] * CPI[2019], '2019', 'record'),
-    (2017, 32_000/12 - 1598/2, 'Nominal', 'record'),
-    (2017, (32_000/12 - 1598/2) / CPI[2017] * CPI[2019], '2019', 'record'),
-    (2017, 32_000/12 - 1598/2, 'Nominal', 'conservative estimate'),
-    (2017, (32_000/12 - 1598/2) / CPI[2017] * CPI[2019], '2019', 'conservative estimate'),
-    (2018, 32_000/12 - 1646/2, 'Nominal', 'conservative estimate'),
-    (2018, (32_000/12 - 1646/2) / CPI[2018] * CPI[2019], '2019', 'conservative estimate'),
-    (2019, 33_000/12 - 1712/2, 'Nominal', 'conservative estimate'),
-    (2019, 33_000/12 - 1712/2, '2019', 'conservative estimate')
-], columns=['Year', 'USD', 'Dollars', 'Certainty'])
+    (2013, (1289/2)/(28_500/12), 'record'),
+    (2014, (1373/2)/(28_500/12), 'record'),
+    (2015, (1427/2)/(30_000/12), 'record'),
+    (2016, (1504/2)/(32_000/12), 'record'),
+    (2017, (1598/2)/(32_000/12), 'record'),
+    (2017, (1598/2)/(32_000/12), 'conservative estimate'),
+    (2018, (1646/2)/(32_000/12), 'conservative estimate'),
+    (2019, (1712/2)/(33_000/12), 'conservative estimate'),
+], columns=['Year', 'USD', 'Certainty'])
 
 def parse_arguments():
     parser = ArgumentParser(description = 'plot historical bisb stipend')
@@ -144,6 +136,21 @@ def main():
     fig = ax.get_figure()
     fig.tight_layout()
     fig.savefig(f'{args.output_dir}/stipend-after-rent.svg')
+    fig.clf()
+
+    ax = sns.lineplot(
+        x='Year',
+        y='USD',
+        style='Certainty',
+        hue='Certainty',
+        palette=[sns.color_palette()[2]] * 2,
+        data=RENT_AS_FRACTION
+    )
+    ax.set_title('Half of median rent as fraction of monthly stipend')
+    ax.get_legend().remove()
+    fig = ax.get_figure()
+    fig.tight_layout()
+    fig.savefig(f'{args.output_dir}/rent-as-fraction.svg')
 
 
 if __name__ == '__main__':
