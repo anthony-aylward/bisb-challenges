@@ -147,7 +147,6 @@ def main():
         data=RENT_AS_FRACTION
     )
     ax.set_title('Half of median rent as fraction of monthly stipend')
-    ax.get_legend().remove()
     fig = ax.get_figure()
     fig.tight_layout()
     fig.savefig(f'{args.output_dir}/rent-as-fraction.svg')
