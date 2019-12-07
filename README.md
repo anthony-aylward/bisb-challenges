@@ -456,7 +456,22 @@ by their PI but still have classes to attend. The [UCSD-wide guideline](http://s
 - In some cases, faculty decline to take rotation students in certain quarters
   out of concern that heavy coursework will limit students' research
   productivity.
+]
 
+---
+
+.left-column[
+  ## Structural challenges for students
+  ### - Rotations
+  ### - Coursework vs. research
+]
+
+.right-column[
+The BISB Steering Committee (SC) is looking into **alerting rotation advisors** that their students are taking courses, per recent correspondence:
+
+> A good idea ... is that rotation advisors could be alerted that their rotation students are taking classes (and point to the curriculum on the website), so the rotation should be no more committment than any regular class during the quarter, and certainly not full time.
+
+However, this is too little too late. Rotation advisors **should already** know what courses their students are taking. It is a failure of the program if prospective thesis advisors (who will be responsible for guiding a student through their PhD) do not even know the most basic program requirements.
 ]
 
 ---
