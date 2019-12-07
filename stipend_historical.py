@@ -109,6 +109,7 @@ def main():
     fig.tight_layout()
     fig.savefig(f'{args.output_dir}/stipend.svg')
     fig.clf()
+    STIPEND.to_csv(f'{args.output_dir}/stipend.csv', index=False)
 
     ax = sns.lineplot(
         x='Year',
@@ -123,6 +124,7 @@ def main():
     fig.tight_layout()
     fig.savefig(f'{args.output_dir}/rent.svg')
     fig.clf()
+    RENT.to_csv(f'{args.output_dir}/rent.csv', index=False)
 
     ax = sns.lineplot(
         x='Year',
@@ -137,6 +139,7 @@ def main():
     fig.tight_layout()
     fig.savefig(f'{args.output_dir}/stipend-after-rent.svg')
     fig.clf()
+    STIPEND_AFTER_RENT.to_csv(f'{args.output_dir}/stipend-after-rent.csv', index=False)
 
     ax = sns.lineplot(
         x='Year',
@@ -147,10 +150,10 @@ def main():
         data=RENT_AS_FRACTION
     )
     ax.set_title('Half of median rent as fraction of monthly stipend')
-    ax.get_legend().remove()
     fig = ax.get_figure()
     fig.tight_layout()
     fig.savefig(f'{args.output_dir}/rent-as-fraction.svg')
+    RENT_AS_FRACTION.to_csv(f'{args.output_dir}/rent-as-fraction.csv', index=False)
 
 
 if __name__ == '__main__':

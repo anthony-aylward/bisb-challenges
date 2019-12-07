@@ -315,8 +315,6 @@ Financial challenges for students
 
 .right-column[
   <img src="figure/rent-as-fraction.svg" width="500" class="centerimg"/>
-  - Here still the dashed line is a _conservative estimate._
-
   - Median rent as a fraction of the stipend has increased significantly in
     recent years, exceeding 30%.
   
