@@ -362,7 +362,7 @@ Financial challenges for students
 .right-column[
 - Effective 2020, [the federal minimum salary threshold for overtime-exempt employees is $35,568](http://aps.ucsd.edu/compensation/apo-salary.html#Department-of-Labor-Overtime-Ru). Legally, this threshold [does not apply to graduate students](https://www.dol.gov/whd/overtime/whdfs17s.pdf)... for some reason.
 
-- Setting the stipend to a lower level than $35,568 requires justification,
+- Setting the stipend to a level less than $35,568 requires justification,
   because BISB students are workers in all but name.
 ]
 
