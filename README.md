@@ -350,6 +350,21 @@ Financial challenges for students
 
 ---
 
+.left-column[
+  ## Financial challenges for students
+  ### - Inflation and rent
+  ### - Stipend vs. inflation
+  ### - Rent vs. inflation
+  ### - Stipend vs. rent
+  ### - Consequences
+]
+
+.right-column[
+- Effective 2020, [the federal minimum salary threshold for overtime-exempt employees is $35,568](http://aps.ucsd.edu/compensation/apo-salary.html#Department-of-Labor-Overtime-Ru). Legally, this threshold [does not apply to graduate students](https://www.dol.gov/whd/overtime/whdfs17s.pdf)... for some reason.
+]
+
+---
+
 class: center, middle, inverse
 
 # Part III
