@@ -318,7 +318,7 @@ Financial challenges for students
   - Median rent as a fraction of the stipend has increased significantly in
     recent years, exceeding 30%.
   
-  - [When residents pay more than 30 percent of income in housing costs, local economies suffer](https://www.sandiegouniontribune.com/business/real-estate/sdut-rent-wages-housing-concern-2016aug02-htmlstory.html). Residents paying more than this threshold they are considered [rent burdened](https://www.huduser.gov/portal/pdredge/pdr_edge_featd_article_092214.html) by [HUD](https://www.hud.gov).
+  - [When residents pay more than 30 percent of income in housing costs, local economies suffer](https://www.sandiegouniontribune.com/business/real-estate/sdut-rent-wages-housing-concern-2016aug02-htmlstory.html). Residents paying more than this threshold are considered [rent burdened](https://www.huduser.gov/portal/pdredge/pdr_edge_featd_article_092214.html) by [HUD](https://www.hud.gov).
 ]
 
 ---
