@@ -362,6 +362,7 @@ Financial challenges for students
 .right-column[
 - [The cost of housing in Santa Cruz](https://www.deptofnumbers.com/rent/california/santa-cruz/) has also risen sharply in recent years. At time of writing, UC Santa Cruz graduate
 students are [on strike](https://www.santacruzsentinel.com/2019/12/09/ucsc-grad-students-strike-saying-they-will-withhold-grades-until-given-a-raise-to-afford-housing/) for a cost of living adjustment to their stipend.
+    - The strike is [supported by the UCSC Faculty Association](http://ucscfa.org/2019/12/scfa-solidarity-with-graduate-students/).
     - [Currently Santa Cruz grad assistants earn $2,434/mo before taxes, nine months per year](https://www.insidehighered.com/quicktakes/2019/12/10/uc-santa-cruz-grad-assistants-strike-cola), or $21,906/yr. They are seeking an increase to $3,846/mo, or $34,614/yr.
 
 - Effective 2020, [the federal minimum salary threshold for overtime-exempt employees is $35,568](http://aps.ucsd.edu/compensation/apo-salary.html#Department-of-Labor-Overtime-Ru). Legally, this threshold [does not apply to graduate students](https://www.dol.gov/whd/overtime/whdfs17s.pdf)... for some reason.
