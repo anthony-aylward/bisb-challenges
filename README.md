@@ -320,7 +320,7 @@ Financial challenges for students
   - Median rent as a fraction of the stipend has increased significantly in
     recent years, exceeding 30%.
   
-  - [When residents pay more than 30 percent of income in housing costs, local economies suffer.](https://www.sandiegouniontribune.com/business/real-estate/sdut-rent-wages-housing-concern-2016aug02-htmlstory.html)
+  - [When residents pay more than 30 percent of income in housing costs, local economies suffer](https://www.sandiegouniontribune.com/business/real-estate/sdut-rent-wages-housing-concern-2016aug02-htmlstory.html). Residents paying more than this threshold are considered [rent burdened](https://www.huduser.gov/portal/pdredge/pdr_edge_featd_article_092214.html) by [HUD](https://www.hud.gov).
 ]
 
 ---
@@ -348,6 +348,29 @@ Financial challenges for students
   - [UCSD pulls in $1.35B in research funding, shattering record](https://www.sandiegouniontribune.com/news/science/story/2019-10-07/uc-san-diego-shatters-record-for-research-funding-pulling-in-1-35-bi) (SDUT, 2019)
 
   - [UC San Diego Received $1.37 Billion in External Funding During Last Fiscal Year](https://ucsdnews.ucsd.edu/pressrelease/uc_san_diego_received_1.37_billion_in_external_funding_during_last_fiscal_year) (UCSD News Center, 2018)
+]
+
+---
+
+.left-column[
+  ## Financial challenges for students
+  ### - Inflation and rent
+  ### - Stipend vs. inflation
+  ### - Rent vs. inflation
+  ### - Stipend vs. rent
+  ### - Consequences
+]
+
+.right-column[
+- [The cost of housing in Santa Cruz](https://www.deptofnumbers.com/rent/california/santa-cruz/) has also risen sharply in recent years. At time of writing, UC Santa Cruz graduate
+students are [on strike](https://www.santacruzsentinel.com/2019/12/09/ucsc-grad-students-strike-saying-they-will-withhold-grades-until-given-a-raise-to-afford-housing/) for a cost of living adjustment to their stipend.
+    - The strike is supported by [the UCSC Faculty Association](http://ucscfa.org/2019/12/scfa-solidarity-with-graduate-students/), [UC Davis grad students](https://payusmoreucsc.com/wp-content/uploads/2019/12/UC-Davis-Solidarity-Statement-12_10_19.pdf), [UC Santa Barbara grad students](https://payusmoreucsc.com/wp-content/uploads/2019/12/UC-Santa-Barbara-Statement-of-Solidarity.pdf), and [more](https://payusmoreucsc.com/statements-of-support/).
+    - [Currently Santa Cruz grad assistants earn $2,434/mo before taxes, nine months per year](https://www.insidehighered.com/quicktakes/2019/12/10/uc-santa-cruz-grad-assistants-strike-cola), or $21,906/yr. They are seeking an increase to $3,846/mo, or $34,614/yr.
+
+- Effective 2020, [the federal minimum salary threshold for overtime-exempt employees is $35,568](http://aps.ucsd.edu/compensation/apo-salary.html#Department-of-Labor-Overtime-Ru). Legally, this threshold [does not apply to graduate students](https://www.dol.gov/whd/overtime/whdfs17s.pdf)... for some reason.
+
+- Setting the BISB stipend to a level less than $35,568 requires justification,
+  because BISB students are workers in all but name.
 ]
 
 ---
