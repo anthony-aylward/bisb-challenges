@@ -31,7 +31,7 @@ STIPEND = pd.DataFrame([
     (2018, 32_000, 'Nominal'),
     (2018, 32_000 / CPI[2018] * CPI[2019], '2019'),
     (2019, 33_000, 'Nominal'),
-    (2019, 33_000, '2019'),
+    (2019, 33_000, '2019')
 ], columns=['Year', 'USD', 'Dollars',])
 
 # Median rent in San Diego-Carlsbad-San Marcos metro area. Original Data source:
@@ -64,7 +64,14 @@ RENT = pd.DataFrame([
     (2019, 1762, 'Nominal', 'conservative estimate'),
     (2019, 1695, '2019', 'conservative estimate'),
     (2019, 1727, '2019', 'conservative estimate'),
-    (2019, 1762, '2019', 'conservative estimate')
+    (2019, 1762, '2019', 'conservative estimate'),
+    
+    (2020, 1746, 'Nominal', 'conservative estimate'),
+    (2020, 1796, 'Nominal', 'conservative estimate'),
+    (2020, 1850, 'Nominal', 'conservative estimate'),
+    (2020, 1746 / CPI[2019] * CPI[2018], '2019', 'conservative estimate'),
+    (2020, 1796 / CPI[2019] * CPI[2018], '2019', 'conservative estimate'),
+    (2020, 1850 / CPI[2019] * CPI[2018], '2019', 'conservative estimate')
 ], columns=['Year', 'USD', 'Dollars', 'Certainty'])
 
 STIPEND_AFTER_RENT = pd.DataFrame([
@@ -95,7 +102,15 @@ STIPEND_AFTER_RENT = pd.DataFrame([
     (2019, 33_000/12 - 1762/2, 'Nominal', 'conservative estimate'),
     (2019, 33_000/12 - 1695/2, '2019', 'conservative estimate'),
     (2019, 33_000/12 - 1727/2, '2019', 'conservative estimate'),
-    (2019, 33_000/12 - 1762/2, '2019', 'conservative estimate')
+    (2019, 33_000/12 - 1762/2, '2019', 'conservative estimate'),
+
+    (2020, 33_000/12 - 1746/2, 'Nominal', 'conservative estimate'),
+    (2020, 33_000/12 - 1796/2, 'Nominal', 'conservative estimate'),
+    (2020, 33_000/12 - 1850/2, 'Nominal', 'conservative estimate'),
+    (2020, (33_000/12 - 1746/2) / CPI[2019] * CPI[2018], '2019', 'conservative estimate'),
+    (2020, (33_000/12 - 1796/2) / CPI[2019] * CPI[2018], '2019', 'conservative estimate'),
+    (2020, (33_000/12 - 1850/2) / CPI[2019] * CPI[2018], '2019', 'conservative estimate'),
+
 ], columns=['Year', 'USD', 'Dollars', 'Certainty'])
 
 RENT_AS_FRACTION = pd.DataFrame([
@@ -114,6 +129,10 @@ RENT_AS_FRACTION = pd.DataFrame([
     (2019, (1695/2)/(33_000/12) * 100, 'conservative estimate'),
     (2019, (1727/2)/(33_000/12) * 100, 'conservative estimate'),
     (2019, (1762/2)/(33_000/12) * 100, 'conservative estimate'),
+
+    (2020, (1746/2)/(33_000/12) * 100, 'conservative estimate'),
+    (2020, (1796/2)/(33_000/12) * 100, 'conservative estimate'),
+    (2020, (1850/2)/(33_000/12) * 100, 'conservative estimate'),
 ], columns=['Year', 'Percent', 'Certainty'])
 
 def parse_arguments():
