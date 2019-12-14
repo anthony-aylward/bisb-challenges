@@ -48,11 +48,23 @@ RENT = pd.DataFrame([
     (2017, 1598, 'Nominal', 'record'),
     (2017, 1598 / CPI[2017] * CPI[2019], '2019', 'record'),
     (2017, 1598, 'Nominal', 'conservative estimate'),
+    (2017, 1598, 'Nominal', 'conservative estimate'),
+    (2017, 1598, 'Nominal', 'conservative estimate'),
+    (2017, 1598 / CPI[2017] * CPI[2019], '2019', 'conservative estimate'),
+    (2017, 1598 / CPI[2017] * CPI[2019], '2019', 'conservative estimate'),
     (2017, 1598 / CPI[2017] * CPI[2019], '2019', 'conservative estimate'),
     (2018, 1646, 'Nominal', 'conservative estimate'),
+    (2018, 1661, 'Nominal', 'conservative estimate'),
+    (2018, 1678, 'Nominal', 'conservative estimate'),
     (2018, 1646 / CPI[2018] * CPI[2019], '2019', 'conservative estimate'),
-    (2019, 1712, 'Nominal', 'conservative estimate'),
-    (2019, 1712, '2019', 'conservative estimate')
+    (2018, 1661 / CPI[2018] * CPI[2019], '2019', 'conservative estimate'),
+    (2018, 1678 / CPI[2018] * CPI[2019], '2019', 'conservative estimate'),
+    (2019, 1695, 'Nominal', 'conservative estimate'),
+    (2019, 1727, 'Nominal', 'conservative estimate'),
+    (2019, 1762, 'Nominal', 'conservative estimate'),
+    (2019, 1695, '2019', 'conservative estimate'),
+    (2019, 1727, '2019', 'conservative estimate'),
+    (2019, 1762, '2019', 'conservative estimate')
 ], columns=['Year', 'USD', 'Dollars', 'Certainty'])
 
 STIPEND_AFTER_RENT = pd.DataFrame([
@@ -67,11 +79,23 @@ STIPEND_AFTER_RENT = pd.DataFrame([
     (2017, 32_000/12 - 1598/2, 'Nominal', 'record'),
     (2017, (32_000/12 - 1598/2) / CPI[2017] * CPI[2019], '2019', 'record'),
     (2017, 32_000/12 - 1598/2, 'Nominal', 'conservative estimate'),
+    (2017, 32_000/12 - 1598/2, 'Nominal', 'conservative estimate'),
+    (2017, 32_000/12 - 1598/2, 'Nominal', 'conservative estimate'),
+    (2017, (32_000/12 - 1598/2) / CPI[2017] * CPI[2019], '2019', 'conservative estimate'),
+    (2017, (32_000/12 - 1598/2) / CPI[2017] * CPI[2019], '2019', 'conservative estimate'),
     (2017, (32_000/12 - 1598/2) / CPI[2017] * CPI[2019], '2019', 'conservative estimate'),
     (2018, 32_000/12 - 1646/2, 'Nominal', 'conservative estimate'),
+    (2018, 32_000/12 - 1661/2, 'Nominal', 'conservative estimate'),
+    (2018, 32_000/12 - 1678/2, 'Nominal', 'conservative estimate'),
     (2018, (32_000/12 - 1646/2) / CPI[2018] * CPI[2019], '2019', 'conservative estimate'),
-    (2019, 33_000/12 - 1712/2, 'Nominal', 'conservative estimate'),
-    (2019, 33_000/12 - 1712/2, '2019', 'conservative estimate')
+    (2018, (32_000/12 - 1661/2) / CPI[2018] * CPI[2019], '2019', 'conservative estimate'),
+    (2018, (32_000/12 - 1678/2) / CPI[2018] * CPI[2019], '2019', 'conservative estimate'),
+    (2019, 33_000/12 - 1695/2, 'Nominal', 'conservative estimate'),
+    (2019, 33_000/12 - 1727/2, 'Nominal', 'conservative estimate'),
+    (2019, 33_000/12 - 1762/2, 'Nominal', 'conservative estimate'),
+    (2019, 33_000/12 - 1695/2, '2019', 'conservative estimate'),
+    (2019, 33_000/12 - 1727/2, '2019', 'conservative estimate'),
+    (2019, 33_000/12 - 1762/2, '2019', 'conservative estimate')
 ], columns=['Year', 'USD', 'Dollars', 'Certainty'])
 
 RENT_AS_FRACTION = pd.DataFrame([
@@ -81,8 +105,15 @@ RENT_AS_FRACTION = pd.DataFrame([
     (2016, (1504/2)/(32_000/12) * 100, 'record'),
     (2017, (1598/2)/(32_000/12) * 100, 'record'),
     (2017, (1598/2)/(32_000/12) * 100, 'conservative estimate'),
+    (2017, (1598/2)/(32_000/12) * 100, 'conservative estimate'),
+    (2017, (1598/2)/(32_000/12) * 100, 'conservative estimate'),
+    (2017, (1598/2)/(32_000/12) * 100, 'conservative estimate'),
     (2018, (1646/2)/(32_000/12) * 100, 'conservative estimate'),
-    (2019, (1712/2)/(33_000/12) * 100, 'conservative estimate'),
+    (2018, (1661/2)/(32_000/12) * 100, 'conservative estimate'),
+    (2018, (1678/2)/(32_000/12) * 100, 'conservative estimate'),
+    (2019, (1695/2)/(33_000/12) * 100, 'conservative estimate'),
+    (2019, (1727/2)/(33_000/12) * 100, 'conservative estimate'),
+    (2019, (1762/2)/(33_000/12) * 100, 'conservative estimate'),
 ], columns=['Year', 'Percent', 'Certainty'])
 
 def parse_arguments():
