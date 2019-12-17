@@ -253,6 +253,20 @@ Financial challenges for students
   ## Financial challenges for students
   ### - Inflation and rent
   ### - Stipend vs. inflation
+]
+
+.right-column[
+  <img src="figure/stipend-2020.svg" width="500" class="centerimg"/>
+  - Assuming 2.8% inflation (as in 2019), the inflation-adjusted stipend is
+    about to drop to its lowest level since 2014.
+]
+
+---
+
+.left-column[
+  ## Financial challenges for students
+  ### - Inflation and rent
+  ### - Stipend vs. inflation
   ### - Rent vs. inflation
 ]
 

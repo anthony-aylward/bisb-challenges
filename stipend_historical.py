@@ -34,6 +34,27 @@ STIPEND = pd.DataFrame([
     (2019, 33_000, '2019')
 ], columns=['Year', 'USD', 'Dollars',])
 
+STIPEND_TO_2020 = pd.DataFrame([
+    (2013, 28_500, 'Nominal', 'record'),
+    (2013, 28_500 / CPI[2013] * CPI[2019], '2019', 'record'),
+    (2014, 28_500, 'Nominal', 'record'),
+    (2014, 28_500 / CPI[2014] * CPI[2019], '2019', 'record'),
+    (2015, 30_000, 'Nominal', 'record'),
+    (2015, 30_000 / CPI[2015] * CPI[2019], '2019', 'record'),
+    (2016, 32_000, 'Nominal', 'record'),
+    (2016, 32_000 / CPI[2016] * CPI[2019], '2019', 'record'),
+    (2017, 32_000, 'Nominal'),
+    (2017, 32_000 / CPI[2017] * CPI[2019], '2019', 'record'),
+    (2018, 32_000, 'Nominal', 'record'),
+    (2018, 32_000 / CPI[2018] * CPI[2019], '2019', 'record'),
+    (2019, 33_000, 'Nominal', 'record'),
+    (2019, 33_000, '2019', 'record'),
+    (2019, 33_000, 'Nominal', 'estimate'),
+    (2019, 33_000, '2019', 'estimate'),
+    (2020, 33_000, 'Nominal', 'estimate'),
+    (2020, 33_000 / CPI[2019] * CPI[2018], '2019', 'estimate')
+], columns=['Year', 'USD', 'Dollars', 'Certainty'])
+
 # Median rent in San Diego-Carlsbad-San Marcos metro area. Original Data source:
 # https://www.deptofnumbers.com/rent/california/san-diego/
 RENT = pd.DataFrame([
@@ -160,6 +181,21 @@ def main():
     fig.savefig(f'{args.output_dir}/stipend.svg')
     fig.clf()
     STIPEND.to_csv(f'{args.output_dir}/stipend.csv', index=False)
+
+    ax = sns.lineplot(
+        x='Year',
+        y='USD',
+        hue='Dollars',
+        style='Certainty',
+        data=STIPEND_TO_2020
+    )
+    ax.set_title('BISB annual stipend')
+    ax.get_legend().remove()
+    fig = ax.get_figure()
+    fig.tight_layout()
+    fig.savefig(f'{args.output_dir}/stipend-2020.svg')
+    fig.clf()
+    STIPEND_TO_2020.to_csv(f'{args.output_dir}/stipend-2020.csv', index=False)
 
     ax = sns.lineplot(
         x='Year',
