@@ -254,6 +254,20 @@ Financial challenges for students
   ## Financial challenges for students
   ### - Inflation and rent
   ### - Stipend vs. inflation
+]
+
+.right-column[
+  <img src="figure/stipend-2020.svg" width="500" class="centerimg"/>
+  - Assuming 2.8% inflation (as in 2019), the inflation-adjusted stipend is
+    about to drop to its lowest level since 2014.
+]
+
+---
+
+.left-column[
+  ## Financial challenges for students
+  ### - Inflation and rent
+  ### - Stipend vs. inflation
   ### - Rent vs. inflation
 ]
 
@@ -279,8 +293,7 @@ Financial challenges for students
 
 .right-column[
   <img src="figure/rent.svg" width="500" class="centerimg"/>
-  - The conservative estimate assumes a 3% increase in 2018 (keeping level with inflation)
-    and a 4% increase in 2019 (as [reported](https://www.sandiegouniontribune.com/business/economy/story/2019-08-13/san-diegos-inflation-rate-among-highest-in-nation) in SDUT).
+  - The conservative estimate assumes a 3-5% increase per year. Note that [BLS data](https://fred.stlouisfed.org/series/CUUSA424SEHA) suggests rent in San Diego-Carlsbad increased by over 5% in 2018, and [SDUT reported](https://www.sandiegouniontribune.com/business/economy/story/2019-08-13/san-diegos-inflation-rate-among-highest-in-nation) a 4% increase in 2019.
   
   .footnote[Data source: [Department of Numbers](https://www.deptofnumbers.com/rent/california/san-diego/)]
 ]
