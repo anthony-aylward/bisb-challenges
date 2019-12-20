@@ -519,7 +519,7 @@ However, this is too little too late. Rotation advisors **should already** know 
 ]
 
 .right-column[
-- BISB coordinator role has high turnover (4 coordinators in 6 years).
+- BISB coordinator role has high turnover (5 coordinators in 6 years).
 
 - In 2018, the role went unfulfilled for several months, and this had a
   serious impact on the program. Administration issues resulted in:
@@ -533,6 +533,8 @@ However, this is too little too late. Rotation advisors **should already** know 
 - While Jade's work has been very helpful, there is a need for a second
   coordinator to ensure reliable support for the increasing number of BISB
   students.
+
+- Update: In Jan. 2020, Jade will leave BISB for Rady School of Management.
 ]
 
 ---
