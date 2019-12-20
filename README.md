@@ -534,7 +534,7 @@ However, this is too little too late. Rotation advisors **should already** know 
   coordinator to ensure reliable support for the increasing number of BISB
   students.
 
-- Update: In Jan. 2020, Jade will leave BISB for Rady School of Management.
+- Update: In Jan 2020, Jade will leave BISB for Rady School of Management.
 ]
 
 ---
