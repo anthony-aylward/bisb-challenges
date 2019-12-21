@@ -1,7 +1,7 @@
 class: center, middle, inverse
 
 # Challenges for the BISB program
-December 18, 2019
+December 21, 2019
 <br>
 .footnote[View on [github](https://github.com/anthony-aylward/bisb-challenges). Slideshow created with [remark](https://github.com/gnab/remark) and [github pages](https://pages.github.com/).]
 
@@ -525,7 +525,7 @@ However, this is too little too late. Rotation advisors **should already** know 
   serious impact on the program. Administration issues resulted in:
   - Troubles ​registering for classes.
   - Tuition being paid late​ resulting in all classes being dropped for a
-    student, fines/holds placed on accounts​and ​temporary loss of health insurance.
+    student, fines/holds placed on accounts, ​and ​temporary loss of health insurance.
   - Trouble getting official approval for senate committee.
   - No responses about recruitment weekend until the week of.
   - See also the [2018 town hall survey results](bisb-bmi-town-hall-survey-summary-2018.pdf) for more info.
