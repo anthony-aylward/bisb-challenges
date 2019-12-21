@@ -1,0 +1,4 @@
+http://0.0.0.0:8000/ bisb-challenges.pdf
+
+https://github.com/gnab/remark/issues/50
+https://github.com/astefanutti/decktape
