@@ -1,7 +1,7 @@
 class: center, middle, inverse
 
 # Challenges for the BISB program
-December 18, 2019
+December 21, 2019
 
 [PDF version](bisb-challenges.pdf)
 <br>
