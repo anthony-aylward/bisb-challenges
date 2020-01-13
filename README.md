@@ -466,6 +466,11 @@ This means it is critical for each student to join a lab _before_ the start of
 their first summer session. The guidelines need to reflect the fact that
 funding for summer rotations is not guranteed.
 
+### Additional note
+In some cases, rotation advisors take on students for the sake of getting 10
+weeks free labor, with no intention of providing them a lab position. There is
+a need for policies that discourage this behavior.
+
 ]
 
 ---
