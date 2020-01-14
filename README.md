@@ -569,8 +569,9 @@ Mental health
   - Improved mental health coverage and access
   - Accountability in advisor-advisee relations
 
-- [Distressing accounts from Stanford](https://www.stanforddaily.com/2019/03/13/a-toxic-culture-of-overwork-inside-the-graduate-student-mental-health-crisis/)
-illustrate the dire consequences of neglecting students' mental health.
+- Distressing accounts from [Stanford](https://www.stanforddaily.com/2019/03/13/a-toxic-culture-of-overwork-inside-the-graduate-student-mental-health-crisis/)
+and [Cornell](https://www.ipetitions.com/petition/msk-wcm-student-deaths?utm_source=whatsapp&utm_medium=social&utm_campaign=&loc=view-petition) illustrate the dire
+(life-and-death) consequences of neglecting students' mental health.
 ]
 
 ---
