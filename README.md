@@ -1,7 +1,7 @@
 class: center, middle, inverse
 
 # Challenges for the BISB program
-December 21, 2019
+January 13, 2020
 
 [PDF version](bisb-challenges.pdf)
 <br>
@@ -467,6 +467,11 @@ This means it is critical for each student to join a lab _before_ the start of
 their first summer session. The guidelines need to reflect the fact that
 funding for summer rotations is not guranteed.
 
+### Additional note
+In some cases, rotation advisors take on students for the sake of getting 10
+weeks free labor, with no intention of providing them a lab position. There is
+a need for policies that discourage this behavior.
+
 ]
 
 ---
@@ -565,8 +570,9 @@ Mental health
   - Improved mental health coverage and access
   - Accountability in advisor-advisee relations
 
-- [Distressing accounts from Stanford](https://www.stanforddaily.com/2019/03/13/a-toxic-culture-of-overwork-inside-the-graduate-student-mental-health-crisis/)
-illustrate the dire consequences of neglecting students' mental health.
+- Distressing accounts from [Stanford](https://www.stanforddaily.com/2019/03/13/a-toxic-culture-of-overwork-inside-the-graduate-student-mental-health-crisis/)
+and [Cornell](https://www.ipetitions.com/petition/msk-wcm-student-deaths?utm_source=whatsapp&utm_medium=social&utm_campaign=&loc=view-petition) illustrate the dire
+(life-and-death) consequences of neglecting students' mental health.
 ]
 
 ---
