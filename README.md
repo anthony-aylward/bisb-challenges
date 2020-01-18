@@ -278,8 +278,7 @@ Financial challenges for students
   - Median rent in San Diego has increased significantly every year.
 
   - The latest [Census ACS](http://www.census.gov/acs/www/) survey data is from 2017.
-    Dashed lines represent a conservative estimate. Note that [UC data](https://www.ucop.edu/student-affairs/_files/GCOAS%20Report%202017.pdf) indicate single UCSD students
-    spent an average of $830 on rent in 2016-2017.
+    Dashed lines represent a conservative estimate.
   
   .footnote[Data source: [Department of Numbers](https://www.deptofnumbers.com/rent/california/san-diego/)]
 ]
@@ -298,7 +297,7 @@ Financial challenges for students
   <img src="figure/rent.svg" width="500" class="centerimg"/>
   - The conservative estimate assumes a 3-5% increase per year. Note that [BLS data](https://fred.stlouisfed.org/series/CUUSA424SEHA) suggests rent in San Diego-Carlsbad increased by over 5% in 2018, and [SDUT reported](https://www.sandiegouniontribune.com/business/economy/story/2019-08-13/san-diegos-inflation-rate-among-highest-in-nation) a 4% increase in 2019.
   
-  .footnote[Data source: [Department of Numbers](https://www.deptofnumbers.com/rent/california/san-diego/)]
+  - Note that [UC data](https://www.ucop.edu/student-affairs/_files/GCOAS%20Report%202017.pdf) indicate single UCSD students spent an average of $830 on rent in 2016-2017.
 ]
 
 ---
