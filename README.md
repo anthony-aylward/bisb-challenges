@@ -1,7 +1,7 @@
 class: center, middle, inverse
 
 # Challenges for the BISB program
-January 13, 2020
+January 17, 2020
 
 [PDF version](bisb-challenges.pdf)
 <br>
@@ -297,7 +297,7 @@ Financial challenges for students
   <img src="figure/rent.svg" width="500" class="centerimg"/>
   - The conservative estimate assumes a 3-5% increase per year. Note that [BLS data](https://fred.stlouisfed.org/series/CUUSA424SEHA) suggests rent in San Diego-Carlsbad increased by over 5% in 2018, and [SDUT reported](https://www.sandiegouniontribune.com/business/economy/story/2019-08-13/san-diegos-inflation-rate-among-highest-in-nation) a 4% increase in 2019.
   
-  - Note that [UC data](https://www.ucop.edu/student-affairs/_files/GCOAS%20Report%202017.pdf) indicate single UCSD students spent an average of $830 on rent in 2016-2017.
+  - Note that [UC data](https://www.ucop.edu/student-affairs/_files/GCOAS%20Report%202017.pdf) indicate single UCSD students (usually splitting rent with a roommate) spent an average of $830 on rent in 2016-2017.
 ]
 
 ---
