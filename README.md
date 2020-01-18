@@ -278,7 +278,8 @@ Financial challenges for students
   - Median rent in San Diego has increased significantly every year.
 
   - The latest [Census ACS](http://www.census.gov/acs/www/) survey data is from 2017.
-    Dashed lines represent a conservative estimate.
+    Dashed lines represent a conservative estimate. Note that [UC data](https://www.ucop.edu/student-affairs/_files/GCOAS%20Report%202017.pdf) indicate UCSD students
+    spent an average of $830 on rent in 2016-2017.
   
   .footnote[Data source: [Department of Numbers](https://www.deptofnumbers.com/rent/california/san-diego/)]
 ]
