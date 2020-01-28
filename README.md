@@ -1,7 +1,7 @@
 class: center, middle, inverse
 
 # Challenges for the BISB program
-January 17, 2020
+January 22, 2020
 
 [PDF version](bisb-challenges.pdf)
 <br>
@@ -541,7 +541,31 @@ However, this is too little too late. Rotation advisors **should already** know 
   coordinator to ensure reliable support for the increasing number of BISB
   students.
 
-- Update: In Jan 2020, Jade will leave BISB for Rady School of Management.
+- Update: In January of 2020, Jade left BISB for Rady School of Management.
+]
+
+---
+
+.left-column[
+  ## Structural challenges for students
+  ### - Rotations
+  ### - Coursework vs. research
+  ### - Understaffing
+  ### - Example of structural improvement
+]
+
+.right-column[
+  BISB students have conceived of and implemented a [rotation database](https://ucsd-bisb.info/auth/demo)
+  which allows new students to browse past rotation projects, view rotation
+  reports, and contact students who have rotated in labs they may be interested
+  in. Here is an example entry:
+
+  | Name | Fall 2019 Rotation Advisor | Project Description | Proposal F19 | Report F19 | Contact |
+  | ---- | -------------------------- | ------------------- | ------------ | ---------- | ------- |
+  | Hsuan-lin (Charlene) Her | Nathan Lewis | Secretory Landscape Along Hematopoiesis | [Proposal](fall_19_rotation_proposal_HsuanlinHer_NathanLewis.pdf) | [Report](fall_19_rotation_report_HsuanlinHer_NathanLewis.pdf) | hsher@eng.ucsd.edu |
+
+  This simple piece of infrastructure serves a student-defined need and enhances
+  degree progress.
 ]
 
 ---
@@ -568,6 +592,8 @@ Mental health
   written by graduate students at MIT discusses the impact of the mental health crisis. They offer two recommendations (relevant to UCSD & BISB as well) to better support the mental health of MIT students:
   - Improved mental health coverage and access
   - Accountability in advisor-advisee relations
+
+- Behaviors fitting at least one definition of [academic bullying](https://anthony-aylward.github.io/academic-bullying/) have occurred before in the BISB program, putting an additional tax on the mental health of affected students.
 
 - Distressing accounts from [Stanford](https://www.stanforddaily.com/2019/03/13/a-toxic-culture-of-overwork-inside-the-graduate-student-mental-health-crisis/)
 and [Cornell](https://www.ipetitions.com/petition/msk-wcm-student-deaths?utm_source=whatsapp&utm_medium=social&utm_campaign=&loc=view-petition) illustrate the dire
