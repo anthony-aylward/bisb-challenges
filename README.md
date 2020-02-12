@@ -1,7 +1,7 @@
 class: center, middle, inverse
 
 # Challenges for the BISB program
-January 28, 2020
+February 11, 2020
 
 [PDF version](bisb-challenges.pdf)
 <br>
@@ -542,6 +542,21 @@ However, this is too little too late. Rotation advisors **should already** know 
   students.
 
 - Update: In January of 2020, Jade left BISB for Rady School of Management.
+]
+
+---
+.left-column[
+  ## Structural challenges for students
+  ### - Rotations
+  ### - Coursework vs. research
+  ### - Understaffing
+]
+
+.right-column[
+![admin satisfaction](figure/admin-satisfaction.svg)
+
+- According to GBIC surveys of BISB students, satisfaction with the program's
+  administrative resources has been low for years.
 ]
 
 ---
