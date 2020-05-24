@@ -51,8 +51,8 @@ STIPEND_TO_2020 = pd.DataFrame([
     (2019, 33_000, '2019', 'record'),
     (2019, 33_000, 'Nominal', 'estimate'),
     (2019, 33_000, '2019', 'estimate'),
-    (2020, 33_000, 'Nominal', 'estimate'),
-    (2020, 33_000 / CPI[2019] * CPI[2018], '2019', 'estimate')
+    (2020, 34_000, 'Nominal', 'estimate'),
+    (2020, 34_000 / CPI[2019] * CPI[2018], '2019', 'estimate')
 ], columns=['Year', 'USD', 'Dollars', 'Certainty'])
 
 # Median rent in San Diego-Carlsbad-San Marcos metro area. Original Data source:
@@ -125,12 +125,12 @@ STIPEND_AFTER_RENT = pd.DataFrame([
     (2019, 33_000/12 - 1727/2, '2019', 'conservative estimate'),
     (2019, 33_000/12 - 1762/2, '2019', 'conservative estimate'),
 
-    (2020, 33_000/12 - 1746/2, 'Nominal', 'conservative estimate'),
-    (2020, 33_000/12 - 1796/2, 'Nominal', 'conservative estimate'),
-    (2020, 33_000/12 - 1850/2, 'Nominal', 'conservative estimate'),
-    (2020, (33_000/12 - 1746/2) / CPI[2019] * CPI[2018], '2019', 'conservative estimate'),
-    (2020, (33_000/12 - 1796/2) / CPI[2019] * CPI[2018], '2019', 'conservative estimate'),
-    (2020, (33_000/12 - 1850/2) / CPI[2019] * CPI[2018], '2019', 'conservative estimate'),
+    (2020, 34_000/12 - 1746/2, 'Nominal', 'conservative estimate'),
+    (2020, 34_000/12 - 1796/2, 'Nominal', 'conservative estimate'),
+    (2020, 34_000/12 - 1850/2, 'Nominal', 'conservative estimate'),
+    (2020, (34_000/12 - 1746/2) / CPI[2019] * CPI[2018], '2019', 'conservative estimate'),
+    (2020, (34_000/12 - 1796/2) / CPI[2019] * CPI[2018], '2019', 'conservative estimate'),
+    (2020, (34_000/12 - 1850/2) / CPI[2019] * CPI[2018], '2019', 'conservative estimate'),
 
 ], columns=['Year', 'USD', 'Dollars', 'Certainty'])
 
@@ -151,9 +151,9 @@ RENT_AS_FRACTION = pd.DataFrame([
     (2019, (1727/2)/(33_000/12) * 100, 'conservative estimate'),
     (2019, (1762/2)/(33_000/12) * 100, 'conservative estimate'),
 
-    (2020, (1746/2)/(33_000/12) * 100, 'conservative estimate'),
-    (2020, (1796/2)/(33_000/12) * 100, 'conservative estimate'),
-    (2020, (1850/2)/(33_000/12) * 100, 'conservative estimate'),
+    (2020, (1746/2)/(34_000/12) * 100, 'conservative estimate'),
+    (2020, (1796/2)/(34_000/12) * 100, 'conservative estimate'),
+    (2020, (1850/2)/(34_000/12) * 100, 'conservative estimate'),
 ], columns=['Year', 'Percent', 'Certainty'])
 
 def parse_arguments():
