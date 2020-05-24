@@ -355,7 +355,7 @@ Financial challenges for students
 
 - A stipend increase to at least $34,000 is urgently needed.
 
-- The stipends for PhD students in [Biomedical Sciences](](http://biomedsci.ucsd.edu/about/BMS%20Guidelines%2011-5-18.pdf), Biology, and Neuroscience are already $34,000. 
+- The stipends for PhD students in [Biomedical Sciences](http://biomedsci.ucsd.edu/about/BMS%20Guidelines%2011-5-18.pdf), Biology, and Neuroscience are already $34,000. 
 
 - UCSD research funding has broken records year after year. The graduate students doing the research should see some benefit from this.
 
